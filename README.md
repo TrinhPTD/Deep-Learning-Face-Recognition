@@ -27,6 +27,7 @@ murtazahassan/Face-Recognition (github.com)
 ## Super Resolution
 EDSR (Enhanced Deep Residual Networks for Single Image Super-Resolution) model is used for the
 super-resolution part. The model for single image super-resolution looks like the one shown.
+
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/2.EDSR%20Model.PNG">
 
 Then, the EDSR model is defined by considering the scale, the number of filters, and the number of
@@ -34,6 +35,7 @@ residual blocks as its input. Residual block and upsampling functions also need 
 considering filters, number of filters, and scale. Then, model components showing the efficient sub-pixel
 convolution has been shown in the following. The input of this model is a low-resolution image, and its
 output is the high-resolution version of the input image.
+
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/3.SR%20model.PNG">
 
 For our research, the number of residual blocks is considered to 16 super-resolution factors. Scale and
@@ -45,12 +47,14 @@ and SR images are compared together. The SR image is now saved in order to be us
 ## Face Recognition
 First, we create an attendance database, which contains three pictures of ourselves. We use the output
 from resolution as the train image for this process and use other pictures as test photos.
+
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/5.Face%20recognition%20data.PNG">
 
 Next, we locate the face in our photos and embed code and compare the distance between the
 training and test photos. The lower distance indicates a better match with the train photos.
 From a distance, we can identify the person. As you can see, the distance of the right picture is higher
 in value than the left picture. So, the match result is false, while the other shows true.
+
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/6.Face%20verification.PNG">
 
 Finally, we check the attendance by using the webcam to capture the photos then compare with the
