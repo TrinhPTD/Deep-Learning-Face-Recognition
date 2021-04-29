@@ -38,8 +38,7 @@ output is the high-resolution version of the input image.
 
 For our research, the number of residual blocks is considered to 16 super-resolution factors. Scale and
 number of filters are fixed to 4 and 64, respectively. Finally, the super-resolution image is created, and LR
-and SR images are compared together. The SR image is now saved in order to be used as the input for
-further analyses.
+and SR images are compared together. The SR image is now saved in order to be used as the input for further analyses.
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/4.SR%20output.PNG">
 
 ## Face Recognition
