@@ -18,9 +18,7 @@ manual work on their part.
 ## Data and Process
 Dataset of attendance is created before the recognition process for training purposes. We have created
 a dataset of 3 students that include their names and images of the student.
-This project is an adaptation of a Face Recognition project designed by Murtaza Hassan. The original
-code and guidance were pulled from GitHub. You can use this link to access the GitHub repository.
-murtazahassan/Face-Recognition (github.com)
+This project is an adaptation of a Face Recognition project designed by Murtaza Hassan. 
 
 <img src="https://github.com/TrinhPTD/Deep-Learning-Face-Recognition/blob/main/images/1.Face%20recognition%20diagram.PNG?raw=true">
 
